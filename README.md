@@ -1,5 +1,5 @@
 # fstabFromYaml
-Create an fstab file from a YAMl file.
+Create an fstab file from a YAML file.
 
 ## Installation
 

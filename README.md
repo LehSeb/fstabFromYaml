@@ -10,6 +10,7 @@ Create an fstab file from a YAML file.
 
 * Run `./fstab.py` .
 * You will be asked to enter the path to the yaml file.  (If left blank the script uses `./fstab.yaml` )
+* The script will check the created fstab for error and report on screen.
 * The resulting fstab file will be written to `./fstab` .
 
 

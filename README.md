@@ -3,8 +3,8 @@ Create an fstab file from a YAML file.
 
 ## Installation
 
-Copy the script to the location you want to create the fstab file.
-It will append the output to an existing fstab file or else create it.
+* Copy the script to the location you want to create the fstab file.
+* It will append the output to an existing fstab file or else create it.
 
 ## Usgae
 

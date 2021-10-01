@@ -1,6 +1,12 @@
 # fstabFromYaml
 Create an fstab file from a YAML file.
 
+## Requirements
+
+* python3
+* pyyaml
+
+
 ## Installation
 
 * Copy the script to the location you want to create the fstab file
@@ -8,7 +14,7 @@ Create an fstab file from a YAML file.
 
 ## Usgae
 
-* Run `fstab.py` 
+* Run `python3 fstab.py` 
 * You will be asked to enter the path to the yaml file  _If left blank the script uses`./fstab.yaml`_
 * The script will check the created fstab for error and report on screen
 * The resulting fstab file will be written to `./fstab` 

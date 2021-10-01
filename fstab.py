@@ -7,10 +7,8 @@ def fstab(val="fstab.yaml"):
     with open(val, "r") as yamlfile:                                        #read yaml file
         data = yaml.safe_load(yamlfile)
 
-
-
     output: str=""
- #   try:
+
     for sub in data['fstab']:
 
         if (data['fstab'][sub]["type"]) == "nfs":
@@ -31,20 +29,7 @@ def fstab(val="fstab.yaml"):
         output+=("\n")                                  #add new line to string
 
 
-
-
-
-
-
-
     return output
-
-
-
-
-
-
-
 
 
 
